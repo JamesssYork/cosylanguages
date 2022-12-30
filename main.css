@@ -1,0 +1,48 @@
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  background-color: #D1C4E9;
+  box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.1);
+  color: #333;
+  font-weight: bold;
+  }
+.logo {
+  font-size: 2rem;
+  text-transform: uppercase;
+  }
+#profile-menu {
+  display: flex;
+  align-items: center;
+  }
+#become-student-button,
+#log-in-button {
+  display: block;
+  margin-left: 1rem;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 0.5rem;
+  background-color: #4CAF50;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+#become-student-button:hover,
+#log-in-button:hover {
+  background-color: #43A047;
+}
+#become-student-button {
+  margin-bottom: 0.5rem;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: #5C5C5C;
+  padding: 30px;
+  background-image: linear-gradient(to bottom, #8e9eab, #eef2f3);
+  display: flex;
+  flex-direction: column;
+  align-items: center;}
+  
