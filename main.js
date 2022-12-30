@@ -3,7 +3,7 @@
 $(document).ready(function() {
     // When the "Become A Student" button is clicked, redirect to the sign up page
     $('#become-student-button').click(function() {
-        window.location.href = 'signup.html';
+        window.location.href = 'profile/signup/signup.html';
       });
       
     // When the "Log In" button is clicked, toggle the visibility of the log in form

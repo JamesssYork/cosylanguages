@@ -1,0 +1,35 @@
+main {
+    font-family: "Roboto", sans-serif;
+    color: #5C5C5C;
+    padding: 30px;
+    background-image: linear-gradient(to bottom, #8e9eab, #eef2f3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;}
+  
+  
+  /* Footer */
+  
+  footer {
+    background-color: #F8E0F7; /* pale pink background color */
+    background-image: linear-gradient(to bottom, #F8E0F7, #FFF); /* gradient from pale pink to white */
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif; /* elegant font */
+    font-size: 1.2em; /* larger font size */
+    text-align: center; /* center-aligned text */
+    color: #333333; /* dark grey text color */
+  }
+  
+  footer a {
+    color: #8B008B; /* dark purple text color for links */
+    font-weight: bold; /* bold links */
+  }
+  
+  footer a:hover {
+    color: #FF00FF; /* light purple text color for hover state of links */
+  }
+  
+  footer p {
+    margin: 20px 0; /* add some space above and below the text */
+    font-style: italic; /* italicized text */
+  }
+  
